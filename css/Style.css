@@ -1,0 +1,73 @@
+body {
+	position: relative;
+	height: 100%;
+	font-size: 14px;
+	font-style: oblique;
+	color: #363940;
+}
+h3 {
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+h3 {
+	font-size: 26px;
+}
+p {
+	font: 14px/1.5em "Roboto";
+}
+.prices .panel {
+	position: static;
+	overflow: hidden;
+	border: none;
+	margin-top: 20%;
+}
+.prices .panel-body .lead {
+	margin: 0;
+	font-size: 48px;
+}
+.prices .panel-footer {
+	padding: 25px 15px;
+}
+
+.prices .panel-default .panel-heading {
+	padding-top: 25px;
+	border: none;
+}
+.prices .panel-default .panel-body {
+	background-color: #EEE;
+}
+.prices .panel-default .list-group-item {
+	color: #222;
+	border: none;
+}
+.prices .panel-default .panel-footer {
+	background-color: #EEE;
+}
+
+.price-box-featured {
+	z-index: 9;
+}
+.price-box-featured .panel {
+	box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.21);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.prices .price-box-featured .price-box-ribbon {
+	position: absolute;
+	width: 150px;
+	top: 25px;
+	right: -35px;
+	text-align: center;
+	padding: 5px 20px;
+	background: #FFF;
+	color: #E83F33;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
