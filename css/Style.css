@@ -17,7 +17,7 @@ p {
 	font: 14px/1.5em "Roboto";
 }
 .prices .panel {
-	position: static;
+	position: relative;
 	overflow: hidden;
 	border: none;
 	margin-top: 20%;
